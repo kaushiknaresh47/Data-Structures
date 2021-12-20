@@ -4,25 +4,23 @@
 template <typename Type>
 class DynamicArray{
 public:
-    DynamicArray(const Type* a);
-    //~DynamicArray();
+    DynamicArray(int maxSize);
+    ~DynamicArray(){delete [] data;};
 
-    //void insert(const Type a);
-    //void insert(const Type a, const int pos);
-
-    //void remove(const Type a);
-
-    //void reverse();
-
-    //bool find(const Type a) const;
-    Type get(int ind) const;
-    
-    //int size();
-    //bool empty();
-
+    bool insert(const Type& a);
+    bool insert(const Type& a, const int pos);
+    int find(const Type& a) const;
+    bool remove(const Type& a);
+    bool pop_back(Type& a);
     void print() const;
+    void reverse();
+
+    // Inline Methods
+    Type get(int ind) const {return data[ind];};
+    int size() {return a_size;};
+    bool empty() {if (a_size) {return false;} else {return true;}};
 private:
-    Type data;
-    int size;
+    Type* data;
+    int a_size;
     int max_size;
 };
