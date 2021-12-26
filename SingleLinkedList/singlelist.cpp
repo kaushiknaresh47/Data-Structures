@@ -38,6 +38,7 @@ bool SingleList<Type>::insert(const Type& a) {
     }
     tail->next = n;
     tail = n;
+    a_size++;
     return true;
 }
 
@@ -123,14 +124,15 @@ void SingleList<Type>::reverse() {
     Node* prev = nullptr;
     Node* curr = head;
     Node* next = nullptr;
+    Node* temp = tail;
     tail = head;
-    while (curr != nullptr) {
+    head = temp;
+    while (curr) {
         next = curr->next;
         curr->next = prev;
         prev = curr;
         curr = next;
     }
-    head = prev;
 }
 
 // O(N)
