@@ -1,4 +1,5 @@
 // singlelist.h
+// Approximation of STL forward list
 // Kaushik Naresh
 
 template <typename Type>

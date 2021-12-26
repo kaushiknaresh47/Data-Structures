@@ -1,4 +1,5 @@
 // doublelist.h
+// Approximation of STL List
 // Kaushik Naresh
 
 template <typename Type>

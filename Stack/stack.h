@@ -1,4 +1,5 @@
 // stack.h
+// Approximation of STL Stack
 // Kaushik Naresh
 
 #define MAX_SIZE 100

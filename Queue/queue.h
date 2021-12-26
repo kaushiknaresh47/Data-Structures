@@ -1,4 +1,5 @@
 // queue.h
+// Approximation of STL Queue
 // Kaushik Naresh
 
 template <typename Type>

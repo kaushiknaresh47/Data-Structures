@@ -1,4 +1,5 @@
 // dynamic_array.h
+// Approximation of STL vector
 // Kaushik Naresh
 
 template <typename Type>
