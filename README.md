@@ -10,3 +10,4 @@ List of Data Structures:
 7. [Heap](https://github.com/kaushiknaresh47/Data-Structures-Algorithms/tree/main/Heap)
 
 List of Algorithms:
+1. [BinarySearch](https://github.com/kaushiknaresh47/Data-Structures-Algorithms/tree/main/Algorithms/binarysearch.cpp)
