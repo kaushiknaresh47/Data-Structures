@@ -7,5 +7,6 @@ List of Data Structures:
 4. [Queue](https://github.com/kaushiknaresh47/Data-Structures-Algorithms/tree/main/Queue)
 5. [Doubly Linked List](https://github.com/kaushiknaresh47/Data-Structures-Algorithms/tree/main/DoublyLinkedList)
 6. [Hash Set](https://github.com/kaushiknaresh47/Data-Structures-Algorithms/tree/main/HashSet)
+7. [Heap](https://github.com/kaushiknaresh47/Data-Structures-Algorithms/tree/main/Heap)
 
 List of Algorithms:
