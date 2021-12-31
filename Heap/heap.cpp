@@ -25,6 +25,7 @@ bool MaxHeap<Type>::top(Type& a) const {
     return true;
 }
 
+// O(logN)
 template <typename Type>
 void MaxHeap<Type>::pop() {
     a_size--;
@@ -39,8 +40,8 @@ void MaxHeap<Type>::pop() {
             Type temp = arr[1];
             arr[1] = arr[0];
             arr[0] = temp;
-            return;
         }
+        return;
     }
 
     double i = 0;
@@ -73,6 +74,7 @@ void MaxHeap<Type>::pop() {
     }
 }
 
+// O(logN)
 template <typename Type>
 void MaxHeap<Type>::insert(const Type& a) {
     arr.push_back(a);
